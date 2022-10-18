@@ -1,0 +1,34 @@
+.sanj {
+    text-align: center;
+    
+}
+
+.titular {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 700;
+    
+}
+
+.fondodos {
+    background-image: url(../assets/img/conos.jpg);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+    height: 95%;
+}
+
+.realizaped {
+    font-size: 40px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 700;
+}
+
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+}

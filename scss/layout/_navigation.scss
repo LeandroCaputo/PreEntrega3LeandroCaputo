@@ -1,0 +1,15 @@
+#navbarNav a {
+    color: orangered;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Fuzzy Bubbles', cursive;
+
+}
+
+#navbarNav a:hover {
+    border: 2px solid gainsboro;
+    background-color: black;
+    color: gainsboro;
+    transition: 0.8s;
+}
+

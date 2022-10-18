@@ -1,0 +1,22 @@
+footer {
+    text-align: center;
+    color: orangered;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.linkredes {
+    color: orangered;
+    font-size: 70px;
+}
+
+
+@media (max-width:768px) {
+ 
+    .footer {
+        width: 90% !important;
+    }
+}
