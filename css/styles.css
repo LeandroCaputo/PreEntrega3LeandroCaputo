@@ -1,3 +1,133 @@
+.boton {
+  text-decoration: none;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 20px;
+  color: black;
+  border-radius: 6px;
+  background-color: rgba(179, 96, 19, 0.856);
+}
+.boton:hover {
+  color: white;
+  background-color: burlywood;
+}
+
+.boton__precio {
+  text-decoration: none;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 20px;
+  color: black;
+  border-radius: 6px;
+  background-color: rgba(179, 96, 19, 0.856);
+  text-align: center;
+}
+
+.carta {
+  background-color: rgba(245, 245, 220, 0.685);
+}
+
+.tarjeta__cuerpo {
+  background-color: bisque;
+}
+
+.tarjetasss {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.tarjeta__unica {
+  width: 30rem;
+}
+
+.carrusel {
+  margin-top: 80px;
+}
+
+.carousl-inner {
+  max-height: 39rem;
+}
+
+footer {
+  text-align: center;
+  color: orangered;
+  text-align: center;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.linkredes {
+  color: orangered;
+  font-size: 70px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 90% !important;
+  }
+}
+.bi:hover {
+  color: brown;
+}
+
+.ubicaciones__footer {
+  text-align: center;
+}
+
+.formulario {
+  background-color: rgba(245, 232, 220, 0.719);
+  border-style: solid;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  padding-top: 70px;
+  margin-bottom: 140px;
+  border-radius: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.clienteform {
+  background-color: rgba(245, 232, 220, 0.719);
+  margin-bottom: 140px;
+  margin-top: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  border-radius: 50px;
+  border-style: solid;
+}
+
+#navbarNav a {
+  color: orangered;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+
+#navbarNav a:hover {
+  border: 2px solid gainsboro;
+  background-color: black;
+  color: gainsboro;
+  transition: 0.8s;
+}
+
+.indback {
+  background-image: url(../assets/img/frutilla.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 95%;
+}
+
+.cuerpo {
+  background-image: url(../assets/img/chocoback.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 95%;
+}
+
 .sanj {
   text-align: center;
 }
@@ -30,6 +160,10 @@
     width: 90% !important;
   }
 }
+.parrafoindex {
+  color: darkgreen;
+}
+
 .h5 {
   font-weight: 400;
 }
@@ -81,78 +215,6 @@
 .fontt {
   font-family: "Fuzzy Bubbles", cursive;
   font-weight: 400;
-}
-
-.carta {
-  background-color: rgba(245, 245, 220, 0.685);
-}
-
-.tarjeta__cuerpo {
-  background-color: bisque;
-}
-
-.carrusel {
-  margin-top: 80px;
-}
-
-.carousl-inner {
-  max-height: 39rem;
-}
-
-footer {
-  color: orangered;
-  text-align: center;
-  padding: 3rem;
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-}
-
-.linkredes {
-  color: orangered;
-  font-size: 70px;
-}
-
-@media (max-width: 768px) {
-  .footer {
-    width: 90% !important;
-  }
-}
-.formulario {
-  background-color: rgba(245, 232, 220, 0.719);
-  border-style: solid;
-  margin-top: 30px;
-  padding-bottom: 40px;
-  padding-top: 30px;
-  margin-bottom: 140px;
-}
-
-#navbarNav a {
-  color: orangered;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Fuzzy Bubbles", cursive;
-}
-
-#navbarNav a:hover {
-  border: 2px solid gainsboro;
-  background-color: black;
-  color: gainsboro;
-  transition: 0.8s;
-}
-
-.indback {
-  background-image: url(../assets/img/frutilla.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 95%;
-}
-
-.cuerpo {
-  background-image: url(../assets/img/chocoback.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 95%;
 }
 
 /*# sourceMappingURL=styles.css.map */

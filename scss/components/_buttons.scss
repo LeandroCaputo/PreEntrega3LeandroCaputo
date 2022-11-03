@@ -1,0 +1,27 @@
+.boton{
+    text-decoration: none;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+    color: black;
+    border-radius: 6px;
+    background-color: rgba(179, 96, 19, 0.856);
+    &:hover{
+        color: white;
+        background-color:burlywood;
+    }
+  }
+  
+  .boton__precio {
+    text-decoration: none;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+    color: black;
+    border-radius: 6px;
+    background-color: rgba(179, 96, 19, 0.856);
+
+    text-align: center;
+  }

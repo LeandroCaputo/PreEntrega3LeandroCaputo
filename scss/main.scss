@@ -1,12 +1,4 @@
-@import "pages/index";
-
-@import "pages/productos";
-
-@import "pages/delivery";
-
-@import "pages/locales";
-
-@import "base/typography";
+@import "components/buttons";
 
 @import "components/cards";
 
@@ -20,3 +12,14 @@
 
 @import "themes/theme";
 
+@import "pages/index";
+
+@import "pages/cliente";
+
+@import "pages/productos";
+
+@import "pages/delivery";
+
+@import "pages/locales";
+
+@import "base/typography";
